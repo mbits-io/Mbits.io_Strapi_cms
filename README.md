@@ -1,1 +1,3 @@
-# Mbits.io_Strapi_CMS
+# Strapi application
+
+A quick description of your strapi application

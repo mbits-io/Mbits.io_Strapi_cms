@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "route": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "page_status": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
